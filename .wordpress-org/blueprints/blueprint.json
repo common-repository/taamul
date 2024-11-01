@@ -1,0 +1,26 @@
+{
+    "landingPage": "/wp-admin/admin.php?page=taamul&tab=appearance",
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+       {
+			"step": "installTheme",
+			"themeZipFile": {
+				"resource": "wordpress.org\/themes",
+				"slug": "twentytwentyfour"
+			}
+		},
+       		{
+			"step": "setSiteOptions",
+			"options": {
+				"site_intent": "taamul"
+			}
+		}
+    ]
+}
